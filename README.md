@@ -49,45 +49,59 @@ III. Admin and customer rep functions
     4) removes auctions
 
 
+# Auction Platform
+
 This is a web application for an auction platform that allows users to create accounts, log in and out, and participate in auctions. It provides features such as auction creation, bidding, browsing, advanced search, and administrative functions.
 
-Project Milestones
-I. Accounts and Authentication
- Users can create accounts and login/logout.
-II. Auctions
- Sellers can create auctions and post items for sale.
- Sellers can set all the characteristics of the item.
- Sellers can set a closing date and time for the auction.
- Sellers can set a hidden minimum price (reserve) for the item.
- Buyers can place bids on the item.
- Buyers can set a new bid on the item.
- Automatic bidding: Buyers can set a secret upper limit and bid increment.
- Alert other buyers when a higher bid has been placed (manual).
- Alert buyers if someone bids more than their upper limit (automatic).
- Define the winner of the auction.
- Check if the seller has set a reserve when the closing time has come.
- If a reserve is set and higher than the last bid, no one is the winner.
- If no reserve is set, the highest bidder wins the auction.
- Alert the winner that they have won the auction.
-III. Browsing and Advanced Search Functionality
- Users can browse items and see the current bidding status.
- Users can sort items by different criteria (type, bidding price, etc.).
- Users can search for items using various criteria.
- Users can view the bid history for a specific auction.
- Users can view the list of auctions a specific buyer or seller has participated in.
- Users can view the list of similar items sold in the preceding month.
- Users can set alerts for specific items they are interested in.
- Users receive alerts when the item becomes available.
- Users can browse questions and answers.
- Users can search questions by keywords.
-IV. Admin and Customer Representative Functions
- Admin can create an admin account.
- Admin can create accounts for customer representatives.
- Admin can generate sales reports, including total earnings.
- Admin can generate earnings reports per item and item type.
- Admin can generate earnings reports per end-user and best buyers.
- Admin can view best-selling items.
- Customer representatives can respond to user questions.
- Customer representatives can edit and delete account information.
- Customer representatives can remove bids.
- Customer representatives can remove auctions.
+## Project Milestones
+
+### I. Accounts and Authentication
+
+- [ ] Users can create accounts and login/logout.
+
+### II. Auctions
+
+- [ ] Sellers can create auctions and post items for sale.
+- [ ] Sellers can set all the characteristics of the item.
+- [ ] Sellers can set a closing date and time for the auction.
+- [ ] Sellers can set a hidden minimum price (reserve) for the item.
+- [ ] Buyers can place bids on the item.
+- [ ] Buyers can set a new bid on the item.
+- [ ] Automatic bidding: Buyers can set a secret upper limit and bid increment.
+- [ ] Alert other buyers when a higher bid has been placed (manual).
+- [ ] Alert buyers if someone bids more than their upper limit (automatic).
+- [ ] Define the winner of the auction.
+- [ ] Check if the seller has set a reserve when the closing time has come.
+- [ ] If a reserve is set and higher than the last bid, no one is the winner.
+- [ ] If no reserve is set, the highest bidder wins the auction.
+- [ ] Alert the winner that they have won the auction.
+
+### III. Browsing and Advanced Search Functionality
+
+- [ ] Users can browse items and see the current bidding status.
+- [ ] Users can sort items by different criteria (type, bidding price, etc.).
+- [ ] Users can search for items using various criteria.
+- [ ] Users can view the bid history for a specific auction.
+- [ ] Users can view the list of auctions a specific buyer or seller has participated in.
+- [ ] Users can view the list of similar items sold in the preceding month.
+- [ ] Users can set alerts for specific items they are interested in.
+- [ ] Users receive alerts when the item becomes available.
+- [ ] Users can browse questions and answers.
+- [ ] Users can search questions by keywords.
+
+### IV. Admin and Customer Representative Functions
+
+- [ ] Admin can create an admin account.
+- [ ] Admin can create accounts for customer representatives.
+- [ ] Admin can generate sales reports, including total earnings.
+- [ ] Admin can generate earnings reports per item and item type.
+- [ ] Admin can generate earnings reports per end-user and best buyers.
+- [ ] Admin can view best-selling items.
+- [ ] Customer representatives can respond to user questions.
+- [ ] Customer representatives can edit and delete account information.
+- [ ] Customer representatives can remove bids.
+- [ ] Customer representatives can remove auctions.
+
+## Getting Started
+
+To run this project locally, follow these steps:
