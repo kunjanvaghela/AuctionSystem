@@ -49,7 +49,7 @@ III. Admin and customer rep functions
     4) removes auctions
 
 
-# Auction Platform
+# Auction System
 
 This is a web application for an auction platform that allows users to create accounts, log in and out, and participate in auctions. It provides features such as auction creation, bidding, browsing, advanced search, and administrative functions.
 
@@ -58,17 +58,14 @@ This is a web application for an auction platform that allows users to create ac
 ### I. Accounts and Authentication
 
 - [ ] Users can create accounts and login/logout.
+- [ ] Users will be guided towards either the End User portal, or Customer Representative portal, or Admin portal based on their role.
 
 ### II. Auctions
 
-- [ ] Sellers can create auctions and post items for sale.
+- [ ] Sellers can create auctions and post items for sale, with a closing date time and optionally a hidden minimum price.
 - [ ] Sellers can set all the characteristics of the item.
-- [ ] Sellers can set a closing date and time for the auction.
-- [ ] Sellers can set a hidden minimum price (reserve) for the item.
 - [ ] Buyers can place bids on the item.
-- [ ] Buyers can set a new bid on the item.
 - [ ] Automatic bidding: Buyers can set a secret upper limit and bid increment.
-- [ ] Alert other buyers when a higher bid has been placed (manual).
 - [ ] Alert buyers if someone bids more than their upper limit (automatic).
 - [ ] Define the winner of the auction.
 - [ ] Check if the seller has set a reserve when the closing time has come.
@@ -83,25 +80,35 @@ This is a web application for an auction platform that allows users to create ac
 - [ ] Users can search for items using various criteria.
 - [ ] Users can view the bid history for a specific auction.
 - [ ] Users can view the list of auctions a specific buyer or seller has participated in.
-- [ ] Users can view the list of similar items sold in the preceding month.
 - [ ] Users can set alerts for specific items they are interested in.
 - [ ] Users receive alerts when the item becomes available.
-- [ ] Users can browse questions and answers.
-- [ ] Users can search questions by keywords.
+- [ ] Users can browse and questions and answers.
 
-### IV. Admin and Customer Representative Functions
+### IV. Customer Representative Functions
 
-- [ ] Admin can create an admin account.
-- [ ] Admin can create accounts for customer representatives.
-- [ ] Admin can generate sales reports, including total earnings.
-- [ ] Admin can generate earnings reports per item and item type.
-- [ ] Admin can generate earnings reports per end-user and best buyers.
-- [ ] Admin can view best-selling items.
 - [ ] Customer representatives can respond to user questions.
 - [ ] Customer representatives can edit and delete account information.
-- [ ] Customer representatives can remove bids.
-- [ ] Customer representatives can remove auctions.
+- [ ] Customer representatives can remove bids and auctions.
+
+### V. Admin Functions
+
+- [ ] Admin can create accounts for customer representatives.
+- [ ] Admin can generate sales reports, including total earnings.
+- [ ] Admin can view best-selling items.
 
 ## Getting Started
 
 To run this project locally, follow these steps:
+
+1. Clone the repository
+2. Install the dependencies: Java and Tomcat server
+3. Set up the database and configure the connection.
+4. Start the application from `landingpage.jsp`
+
+## Technologies Used
+
+- Java
+- MySQL
+- HTML/CSS
+- JavaScript
+- Bootstrap
