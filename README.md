@@ -45,6 +45,12 @@ This is a web application for an auction platform that allows users to create ac
 - [ ] Admin can generate sales reports, including total earnings.
 - [ ] Admin can view best-selling items.
 
+### VI. Additional Features
+- [ ] Auto Bidding implemented using PL/SQL for quicker execution
+- [ ] Encrypted PII data using AES Encryption
+- [ ] SQL Triggers implemented for checking bid status and wins.
+- [ ] Alerts sent via Email.
+
 ## Getting Started
 
 To run this project locally, follow these steps:
@@ -58,6 +64,7 @@ To run this project locally, follow these steps:
 
 - Java
 - MySQL
+- PL/SQL
 - HTML/CSS
 - JavaScript
 - Bootstrap
