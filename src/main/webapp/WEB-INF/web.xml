@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>AuctionSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>landingPage.jsp</welcome-file> 
+    <welcome-file>loginPage.jsp</welcome-file>   
+    <welcome-file>registration.jsp</welcome-file>   
+  </welcome-file-list>
+<servlet>
+     <servlet-name>logout</servlet-name>
+     <!--  <servlet-path>/AuctionSystem/src/main/java/com/usersManagement/web/logoutServlet.java/ </servlet-path>-->
+         <servlet-class>com.usersManagement.web.logoutServlet </servlet-class>
+     
+</servlet>
+<servlet-mapping>
+  <servlet-name>logout</servlet-name>
+  <url-pattern>/logout/*</url-pattern>
+</servlet-mapping>
+  	<context-param>
+        <param-name>host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>port</param-name>
+        <param-value>587</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>kunjanvaghelaus@gmail.com</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>YOUR_PASSWORD</param-value>
+    </context-param>
+  
+
+</web-app>
