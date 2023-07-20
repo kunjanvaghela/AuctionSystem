@@ -1,6 +1,6 @@
 # Auction System
 
-This is a web application for an auction platform that allows users to create accounts, log in and out, and participate in 
+This is a web application for an auction platform that allows users to create accounts, log in and out, and participate in
 auctions. It provides features such as auction creation, bidding, browsing, advanced search, and administrative functions.
 
 ## Project Milestones
@@ -8,7 +8,7 @@ auctions. It provides features such as auction creation, bidding, browsing, adva
 ### I. Accounts and Authentication
 
 - [ ] Users can create accounts and login/logout.
-- [ ] Users will be guided towards either the End User portal, or Customer Representative portal, or Admin portal based on 
+- [ ] Users will be guided towards either the End User portal, or Customer Representative portal, or Admin portal based on
 their role.
 
 ### II. Auctions
@@ -73,3 +73,7 @@ To run this project locally, follow these steps:
 
 # Presentation Link:
 https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link
+
+
+# Screenshots:
+![Alt text](relative%20main/webapp/sony1.png?raw=true "Title")
