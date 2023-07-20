@@ -62,7 +62,7 @@ To run this project locally, follow these steps:
 3. Set up the database and configure the connection.
 4. Start the application from `landingpage.jsp`
 
-## Technologies Used
+## Tech Stack
 
 - Java
 - MySQL
@@ -70,6 +70,12 @@ To run this project locally, follow these steps:
 - HTML/CSS
 - JavaScript
 - Bootstrap
+
+## JAR needed/Libraries used
+- javax.mail
+- mysql-connector-java-5.1.49
+- taglibs-standard-impl-1.2.5
+- taglibs-standard-spec-1.2.5
 
 # Presentation Link:
 https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link
