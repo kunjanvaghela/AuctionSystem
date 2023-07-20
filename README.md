@@ -76,5 +76,5 @@ https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share
 
 
 # Screenshots:
-![Alt text](/main/webapp/sony1.png?raw=true "Title")
+![Alt text](/src/main/webapp/sony1.png?raw=true "Title")
 ![Alt text](/img/IMG_3491.JPG?raw=true "Title2")
