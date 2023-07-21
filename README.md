@@ -33,8 +33,7 @@ Email Alerts: Users will receive timely alerts via email to stay informed about 
 
 To experience the exciting world of auctions and join our dynamic community, follow the installation instructions provided below. Discover unique items, place bids, and unleash the thrill of competitive auctions with the Auction System!
 
-Feel free to explore our (https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link "Presentation") to learn more about the platform's capabilities.
-[Named Link](https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link "Presentation")
+Feel free to explore our [Presentation](https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link "Presentation Link") to learn more about the platform's capabilities.
 
 We hope you enjoy the Auction System and find it to be a valuable addition to your online auction journey! Happy bidding!
 
@@ -44,7 +43,7 @@ Steps to run the AuctionSystem:
 2. Install the dependencies: Java and Tomcat server
 3. Include the below listed JAR files.
 3. Set up the database (SQL dump present in the /Db_Dump/db_dump.sql file), and configure the connection.
-4. Set max_sp_recursion_depth to more than 0. Required for auto-bid functionality to work. Syntax: 'SET max_sp_recursion_depth = 200;'. For reference, (https://dev.mysql.com/doc/refman/5.7/en/stored-routines-syntax.html "read article").
+4. Set max_sp_recursion_depth to more than 0. Required for auto-bid functionality to work. Syntax: 'SET max_sp_recursion_depth = 200;'. For reference, [Check this Article](https://dev.mysql.com/doc/refman/5.7/en/stored-routines-syntax.html "article link").
 5. Start the application by hosting the AuctionSystem. Home Page `landingpage.jsp` will be loaded.
 
 ## Tech Stack
