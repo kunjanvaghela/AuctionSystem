@@ -34,7 +34,8 @@ Email Alerts: Users will receive timely alerts via email to stay informed about 
 To experience the exciting world of auctions and join our dynamic community, follow the installation instructions provided below. Discover unique items, place bids, and unleash the thrill of competitive auctions with the Auction System!
 
 Feel free to explore our (https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link "Presentation") to learn more about the platform's capabilities.
-[Named Link](https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link "Presentation") and https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link or <https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link>
+[Named Link](https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link "Presentation")
+
 We hope you enjoy the Auction System and find it to be a valuable addition to your online auction journey! Happy bidding!
 
 Steps to run the AuctionSystem:
