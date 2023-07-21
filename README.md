@@ -33,7 +33,7 @@ Email Alerts: Users will receive timely alerts via email to stay informed about 
 
 To experience the exciting world of auctions and join our dynamic community, follow the installation instructions provided below. Discover unique items, place bids, and unleash the thrill of competitive auctions with the Auction System!
 
-Feel free to explore our Presentation Link (https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link) to learn more about the platform's capabilities.
+Feel free to explore our [Presentation]<https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share_link> to learn more about the platform's capabilities.
 
 We hope you enjoy the Auction System and find it to be a valuable addition to your online auction journey! Happy bidding!
 
@@ -43,7 +43,8 @@ Steps to run the AuctionSystem:
 2. Install the dependencies: Java and Tomcat server
 3. Include the below listed JAR files.
 3. Set up the database (SQL dump present in the /Db_Dump/db_dump.sql file), and configure the connection.
-4. Start the application by hosting the AuctionSystem. Home Page `landingpage.jsp` will be loaded.
+4. Set max_sp_recursion_depth to more than 0. Required for auto-bid functionality to work. Syntax: 'SET max_sp_recursion_depth = 200;'. For reference, [read this article]<https://dev.mysql.com/doc/refman/5.7/en/stored-routines-syntax.html>.
+5. Start the application by hosting the AuctionSystem. Home Page `landingpage.jsp` will be loaded.
 
 ## Tech Stack
 
@@ -66,19 +67,19 @@ Steps to run the AuctionSystem:
 - Admin role: admin@auction.com/admin@123
 
 # Functionality with Screenshots:
-#### Home page for the application:
+### Home page for the application:
 ![Alt text](/img/HomePage.png?raw=true "Home Page")
 
-#### Listing an Item for Auction:
+### Listing an Item for Auction:
 End users can list an item for Auction as follows. End user can also add an item in case if the item is not available in the inventory.
 [Note: Customer Representatives will be monitoring the system for any illegal/duplicate items.]
 ![Alt text](/img/ToPlaceAuction.png?raw=true "Listing an Item for Auction")
 
-#### Placing Bids on Items
+### Placing Bids on Items
 End users can then place bids on the items available for Auction. They have an option to either choose for a static bid, or enabling an auto-bid option (that is, bidding in a range of price). The least possible bid amount will be selected based on current bids, and the user's bid will be adjusted accordingly as other bidder's bids on the same product.
 ![Alt text](/img/UserPlacesBidAutoIncrement.png?raw=true "Placing Bids on the Items")
 
-#### Auto-Bidding Example
+### Auto-Bidding Example
 For example, check the bids by the user Kunjan and Cust One (shown in their respective dashboards), both of whom bid on same smartphone. Here, Cust One outbid Kunjan's bid and is winning by a margin of 5 USD.
 ![Alt text](/img/UserAutoBidExampleLoser.png?raw=true "Kunjan's Dashboard (Loser)")
 ![Alt text](/img/UserAutoBidExampleWinner.png?raw=true "Cust One's Dashboard (Winner)")
@@ -101,12 +102,12 @@ As part of the dashboard available for end users, they can:
 ![Alt text](/img/UserDashBoardPlacedBids.png?raw=true "UserDashBoardPlacedBids")
 
 
-#### Customer Representative Functions
+### Customer Representative Functions
 Customer Representatives can approve/deny multiple end user requests simultaneously, and the system will perform the necessary upgrades accordingly. Customer Representatives can also answer user queries as shown below.
 ![Alt text](/img/CustomerRepresenativeActions.png?raw=true "Customer Represenative Actions")
 
 
-#### Admin Dashboard
+### Admin Dashboard
 Dashboard available for the Admin user to check the reports of the entire system:
 ![Alt text](/img/AdminSalesDashboard1.png?raw=true "Admin Sales Dashboard1")
 
@@ -114,7 +115,7 @@ Dashboard available for the Admin user to check the reports of the entire system
 
 ![Alt text](/img/AdminSalesDashboard3.png?raw=true "Admin Sales Dashboard3")
 
-#### Managing Customer Representatives
+### Managing Customer Representatives
 Admin is the only one who can create/modify/delete a Customer Representative account for security purposes.
 ![Alt text](/img/CustomerRepresentativeRegistraionForm.png?raw=true "Customer Representative Registraion Form")
 
