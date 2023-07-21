@@ -251,7 +251,7 @@ public class ItemListingDAO {
 		List<ItemListingReport> listOfFilteredOutput = new ArrayList<ItemListingReport>();
 //	String SELECT_ALL_ITEMLISTING = "SELECT * FROM ITEMLISTING WHERE ListingId = ?";
 //	String SELECT_ALL_ITEMLISTING ="select a.*, b.name as itemName, c.name as SellerName from item_listing a, catalog_master b, users__ c where a.itemId = b.itemId and a.sellerId=c.userid and ListingId = ?;";
-		String querry = "select a.*, b.*, c.name as SellerName from item_listing a, catalog_master b, users__ c where a.itemId = b.itemId and a.sellerId=c.userid and  a.current_status!='X' ";
+		String querry = "select a.*, b.*, c.name as SellerName from item_listing a, catalog_master b, users__ c where a.itemId = b.itemId and a.sellerId=c.userid and  a.current_status NOT IN ('X', 'D') and a.closing_timestamp > SYSDATE()";
 		if (category != null && !category.isEmpty()) {
 			querry += "AND category LIKE '%" + category + "%' ";
 		}

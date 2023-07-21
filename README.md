@@ -85,6 +85,48 @@ https://drive.google.com/file/d/1BxnZgO_Baovy-Le6Kmixl1WGmrmiGGeJ/view?usp=share
 - Customer Representative role: emp1@auction.com/emp1@123, emp2@auction.com/emp2@123
 - Admin role: admin@auction.com/admin@123
 
-# Screenshots:
+# Functionality with Screenshots:
+Home page for the application:
+![Alt text](/img/HomePage.png?raw=true "HomePage")
+
+End users can list an item for Auction as follows. And End user can also add an item in case if the item is not available in the inventory.
+[Note: Customer Representatives will be monitoring the system for any illegal/duplicate items.]
+![Alt text](/img/ToPlaceAuction.png?raw=true "ToPlaceAuction")
+
+End users can then place bids on the items available for Auction. End users have an option to either choose for a static bid, or can enable an auto-bid option (that is, bidding in a range of price). The least possible bid amount will be selected based on current bids. Current bid of the user will be moved up or down based on bid amount changes by other bidders on the same product.
+![Alt text](/img/UserPlacesBidAutoIncrement.png?raw=true "UserPlacesBidAutoIncrement")
+
+For example, check the bids by the user Kunjan and Cust One (shown respective dashboards of the users), both of them bid on same smartphone. Here, Cust One outbid Kunjan's bid, and is winning by a margin of 5 USD.
+![Alt text](/img/UserAutoBidExampleLoser.png?raw=true "UserAutoBidExampleLoser")
+![Alt text](/img/UserAutoBidExampleWinner.png?raw=true "UserAutoBidExampleWinner")
+
+[Note: Sellers have an option of providing a minimum increment in between each bid. Since the seller of the listed auction set this limit as 5, there is a difference of at least 5 USD between the two given bids]
+
+End user can add an item to WishList. Once an item is added, system will send email to the user's registered email if there are any auction listing available on the item:
+![Alt text](/img/WishList.png?raw=true "WishList")
+
+
+### As part of Dashboard available for the end users, they can:
+- Check the summary of all the items put on Auction by the user:
+![Alt text](/img/EndUserDashboardAuctionListing.png?raw=true "EndUserDashboardAuctionListing")
+
+- Check the summary of all the bids on the available Auctions:
+![Alt text](/img/UserDashBoardPlacedBids.png?raw=true "UserDashBoardPlacedBids")
+
+
+Customer Representatives can approve/deny multiple end user requests simultaneously (system will do the necessary upgrades as per the action selected). Customer Representative can also answer user queries as shown below.
+![Alt text](/img/CustomerRepresenativeActions.png?raw=true "CustomerRepresenativeActions")
+
+Dashboard available for the Admin user to check the reports of the entire system:
+![Alt text](/img/AdminSalesDashboard1.png?raw=true "AdminSalesDashboard1")
+
+![Alt text](/img/AdminSalesDashboard2.png?raw=true "AdminSalesDashboard2")
+
+![Alt text](/img/AdminSalesDashboard3.png?raw=true "AdminSalesDashboard3")
+
+Admin is also the only one who can create/modify/delete a Customer Representative account for security purpose:
+![Alt text](/img/CustomerRepresentativeRegistraionForm.png?raw=true "CustomerRepresentativeRegistraionForm")
+
+
 ![Alt text](/src/main/webapp/sony1.png?raw=true "Title")
 ![Alt text](/img/IMG_3491.JPG?raw=true "Title2")

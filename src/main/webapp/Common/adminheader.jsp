@@ -31,7 +31,7 @@
 			          </li>
 
 			          <li class="nav-item"><a class="nav-link"
-							href="<%=request.getContextPath()%>/dashboard"">Dashboard</a></li>
+							href="<%=request.getContextPath()%>/dashboard">Dashboard</a></li>
 						<li class="nav-item"><a class="nav-link"
 							href="<%=request.getContextPath()%>/biddingHistory">Public Bidding History</a></li>
 						<li class="nav-item"><a class="nav-link"

@@ -312,7 +312,7 @@ public class BidDAO {
 				+ "  i.current_best_bid_amount AS highest_bid, \r\n"
 				+ "  i.closing_timestamp AS auction_end_date, i.current_status AS auction_status \r\n"
 				+ "FROM item_listing i\r\n" + "JOIN catalog_master c ON c.itemId = i.itemId\r\n"
-				+ "LEFT JOIN bids b ON b.listingId = i.listingId\r\n" + " WHERE i.sellerId = ?\r\n"
+				+ "LEFT JOIN bids b ON b.listingId = i.listingId\r\n" + " WHERE i.sellerId = ?\r\n and i.current_status != 'D'"
 				+ "GROUP BY i.listingId;";
 
 		PreparedStatement statement = connection.prepareStatement(getAllListingbyUserId);
